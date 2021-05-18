@@ -1,10 +1,9 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-og-rte'
-import 'react-og-rte/dist/index.css'
+import Editor from 'react-og-rte'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return <Editor />
 }
 
 export default App
